@@ -23,8 +23,8 @@ var TwitterConvTrkr = {
     else console.error('TwitterConvTrkr init must be called first.');
   },
 
-  track: function(action) {
-    if (ConvId) twq('track', action);
+  track: function(action, params) {
+    if (ConvId) twq('track', action, params);
     else console.error('TwitterConvTrkr init must be called first.');
   }
 }

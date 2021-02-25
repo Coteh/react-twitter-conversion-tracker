@@ -25,9 +25,11 @@ TwitterConvTrkr.init(init);
 
 Tracks the page a user is currently on.
 
-### `TwitterConvTrkr.track(action)`
+### `TwitterConvTrkr.track(action, params)`
 
 Tracks the action provided to function.
+
+The `params` argument is optional, and is used for when an action has required parameters. Please see [here](https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html#advanced) for more information.
 
 > _YourTwitterConversionId_ is found in _twq('init','x3id')_ when you create the tailored audience.
 
