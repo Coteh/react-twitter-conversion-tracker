@@ -1,4 +1,4 @@
-import TwitterConvTrkr from 'react-twitter-conversion-tracker-plus';
+import TwitterConvTrkr from './index';
 
 TwitterConvTrkr.init('nuqtg');
 
