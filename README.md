@@ -2,8 +2,9 @@
 React JS component for [Twitter's conversion tracking.](https://business.twitter.com/en/help/campaign-measurement-and-analytics/conversion-tracking-for-websites.html)
 
 ** NOTE **
-This package is forked from [react-twitter-conversation-tracker](https://github.com/evankyle/react-twitter-conversion-tracker). The only addition to this
-package is the ability to [track any event](#twitterconvtrkrtrackaction).
+This package is forked from [react-twitter-conversation-tracker](https://github.com/evankyle/react-twitter-conversion-tracker) with the following new additions:
+- Ability to [track any event](#twitterconvtrkrtrackaction)
+- TypeScript type definitions
 
 ## Install
 ```
